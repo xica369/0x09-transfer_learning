@@ -32,4 +32,5 @@ It has a script to evaluate the model saved in the `cifar10.h5` file
 
 ## Author
 
-* [**Carolina Andrade**](https://github.com/xica369)
+* [**Ximena Carolina Andrade Vargas**](https://github.com/xica369)
+She is Backend, Mechatronic Engineer and Psychologist. She is a lover of Machine Learning. Twitter: @xica369 LinkedIn: https://www.linkedin.com/in/xicav369/ Project repository: https://github.com/xica369/0x09-transfer_learning/
