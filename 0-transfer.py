@@ -7,15 +7,17 @@ import numpy as np
 
 
 def preprocess_data(X, Y):
-    """function that pre-processes the data for your model:
+    """
+    Function that pre-processes the data for your model:
 
-    X is a numpy.ndarray of shape (m, 32, 32, 3) containing the CIFAR 10 data,
-    where m is the number of data points
-    Y is a numpy.ndarray of shape (m,) containing the CIFAR 10 labels for X
+    - X is a numpy.ndarray of shape (m, 32, 32, 3) containing the CIFAR 10
+      data, where m is the number of data points
+    - Y is a numpy.ndarray of shape (m,) containing the CIFAR 10 labels
+      for X
 
     Returns: X_p, Y_p
-    X_p is a numpy.ndarray containing the preprocessed X
-    Y_p is a numpy.ndarray containing the preprocessed Y"""
+    - X_p is a numpy.ndarray containing the preprocessed X
+    - Y_p is a numpy.ndarray containing the preprocessed Y"""
 
     X_p = K.applications.densenet.preprocess_input(X)
     Y_p = K.utils.to_categorical(Y, num_classes=10)
@@ -79,7 +81,7 @@ if __name__ == "__main__":
         K.layers.Dense(num_classes, activation="softmax"),
     ])
 
-    # optimizer
+    # optimizer with Adam
     opt = K.optimizers.Adam()
 
     # model compilation
