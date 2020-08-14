@@ -28,9 +28,9 @@ def preprocess_data(X, Y):
 if __name__ == "__main__":
     """transfer learning and model training"""
 
-    batch_size = 50
+    batch_size = 100
     num_classes = 10
-    epochs = 50
+    epochs = 40
     model_name = "cifar10.h5"
 
     # the data, split between train and test sets:
