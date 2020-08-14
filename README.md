@@ -21,6 +21,15 @@ It also has the function `def preprocess_data(X, Y):`  that pre-processes the da
     -   `X_p`  is a  `numpy.ndarray`  containing the preprocessed  `X`
     -   `Y_p`  is a  `numpy.ndarray`  containing the preprocessed  `Y`
 
+When you run the file it will look something like this:
+ `$./0-transfer.py`
+ 
+ ![image](https://user-images.githubusercontent.com/47121002/90203490-84c47a80-dda6-11ea-948a-5df2f312e14d.png)
+ 
+ ...
+ 
+ ![image](https://user-images.githubusercontent.com/47121002/90203685-fc92a500-dda6-11ea-9528-6c7475a25922.png)
+
 **0-main.py**
 It has a script to evaluate the model saved in the `cifar10.h5` file
 
