@@ -41,7 +41,7 @@ It has a script to evaluate the model saved in the `cifar10.h5` file
 
 ## Author
 
-* [**Ximena Carolina Andrade Vargas**](https://github.com/xica369)
+* [**Ximena Carolina Andrade Vargas**](https://github.com/xica369).
 She is Backend, Mechatronic Engineer and Psychologist. She is a lover of Machine Learning.
 
 	Twitter: @xica369
